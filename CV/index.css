@@ -1,16 +1,29 @@
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   margin:0;
+  background-color: #F2F0F0;
+  color: #0D0D0D;
 }
 header{
-  background-color: #3949ab;
-  color: white;
+  background-color: #4C6873;
+  color: #F2F0F0;
   text-align: center;
   padding: 16px;
 }
+.yo{
+  border-radius: 47%;
+  border: solid 1px;
+  border-color: #7297A6;
+}
 h3{
   font-size: 36px;
-  font-weight: 700;
+  font-weight: 1000;
+  display: inline-block;
+}
+i{
+  display: inline-block;
+  margin-left: 15px;
+  color: #0D0D0D;
 }
 dt{
   font-size: 20px;
@@ -30,7 +43,7 @@ li{
   width: 400px;
 }
 .description{
-  background-color: #f06292;
+  background-color: #B0CDD9;
   margin: 0;
   text-align: center;
   padding: 10px;
@@ -39,7 +52,8 @@ li{
   font-weight: 700;
 }
 .thin{
-  font-weight: 200;
+  font-weight: 500;
+  font-size: 25px;
 }
 .experiencia, .cursos, .otros{
   width: 900px;
@@ -61,4 +75,16 @@ li{
 .foto{
   display: inline-block;
   margin-top: 10px;
+}
+.up{
+  display: inline-block;
+  vertical-align: middle;
+}
+.expro{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 40px
+}
+#uplogo{
+  margin-left: 30px;
 }
