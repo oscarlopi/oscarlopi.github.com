@@ -16,7 +16,7 @@ links.forEach(function(link){
     content.classList.add("animated");
 
     setTimeout(function(){
-      location.href = "../assets/boletin/index.html";
+      location.href = "../assets/boletin";
     }, 600)
 
   })
