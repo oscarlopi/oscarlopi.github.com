@@ -1,5 +1,5 @@
 html{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Crete Round', serif;
 }
 a{
   text-decoration: none;
@@ -72,9 +72,14 @@ a:focus{
   width: 100%;
   border-spacing: 0;
 }
-.table td, .table th{
+.table td{
   padding: 1em;
   text-align: left;
+}
+.table th{
+  padding: 1em;
+  text-align: left;
+  border-bottom: solid 1px black;
 }
 .table tr:nth-child(even){
   background-color: #CED9D9;
@@ -104,6 +109,7 @@ a:focus{
   float: left;
   margin-right: 1em;
   height: 250px;
+  border-radius: 4px;
 }
 
 @media (max-width:600px) {
