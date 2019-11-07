@@ -125,6 +125,15 @@ a:focus{
     font-weight: bold;
     color: #113A66;
   }
+  .close{
+    height: 30px;
+    width: 30px;
+  }
+  .title{
+    border-bottom: solid 1px black;
+    padding: .5em;
+    display: inline-block;
+  }
   th{
     display: none;
   }
