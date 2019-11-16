@@ -4,37 +4,64 @@
     <meta charset="utf-8">
     <meta name="description" content="Estudiante de Contaduría, entusiasta de la tecnología
     con experiencia en contabilidad financiera, manejo de Excel y de SAP">
-    <title>CV de Oscar</title>
+    <title>Oscar López</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="./fontawesome/css/all.css">
     <link rel="shortcut icon" href="icon.png">
-    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css"
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,400,700&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
-      <h1 class="p bold"> CV Oscar López</h1>
-      <p class="p thin">Analista</p>
+      <h1 class="p">Oscar López Martínez</h1>
+      <div class="main-nav">
+        <nav>
+          <ul>
+            <li><a href="#exp">Experience</a></li>
+            <li><a href="#ed">Education</a></li>
+            <li><a href="#cour">Courses</a></li>
+            <li><a href="#oth">Other</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <div class="description">
-      <p class="description">Estudiante de Contaduría y entusiasta de la tecnología
-      con experiencia en contabilidad financiera, manejo de Excel y de SAP</p>
-    </div>
-    <section>
-      <div class="edu">
-        <div class="education">
-          <div class="text">
-            <h3>Educación</h3></i>
-            <dl>
-              <dt>Licenciatura en Contaduría</dt>
-              <dd class="up">2015 - 2019. Universidad Panamericana</dd><img src="up.png" width="75" id="uplogo" class="up">
-            </dl>
+    <div class="intro">
+      <div class="row center-xs bottom-xs">
+        <div class="col-xs-8 col-xs-12">
+          <div class="box">
+            <div class="content">
+              <div class="foto animated fadeInLeft">
+                <img src="yo.jpg" class="yo" width="400px" alt="Lopi">
+              </div>
+              <div class="intro-text animated fadeInRight">
+                <div class="flex-text">
+                  <dl class="intro-info">
+                    <dt id="info-name">Oscar López</dt>
+                    <dd>ACCOUNTANT & DEVELOPER</dd>
+                    <dt>Email:</dt>
+                    <dd>oscar_loma95@hotmail.com</dd>
+                    <dt>Location:</dt>
+                    <dd>Mexico City</dd>
+                    <dt>Date of Birth:</dt>
+                    <dd>November 25th 1995</dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="foto">
-          <img src="yo.png" class="yo" width="250px" alt="Lopi">
-        </div>
       </div>
-      <div class="experiencia">
+    </div>
+    <div class="contact-box animated fadeInDown">
+      <div class="contact-icon">
+        <a target="_blank" href="https://www.linkedin.com/in/oscar-l%C3%B3pez-a6353a194/"><i class="fab fa-linkedin-in"></i></a>
+        <a target="_blank" href="mailto:oscar_loma95@hotmail.com"><i class="fas fa-paper-plane"></i></a>
+        <a target="_blank" href="https://www.instagram.com/oscar.lopi/"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <section>
+      <div id="exp" class="experiencia">
         <div class="text">
           <h3>Experiencia Profesional</h3>
           <dl>
@@ -45,7 +72,19 @@
           </dl>
         </div>
       </div>
-      <div class="cursos">
+      <div id="ed" class="edu">
+        <div class="education">
+          <div class="text">
+            <h3>Educación</h3></i>
+            <dl>
+              <dt>Licenciatura en Contaduría</dt>
+              <dd class="up">2015 - 2019. Universidad Panamericana</dd><img src="up.png" width="75" id="uplogo" class="up">
+            </dl>
+          </div>
+        </div>
+
+      </div>
+      <div id="cour" class="cursos">
         <div class="text">
           <h3>Cursos</h3>
           <dl>
@@ -56,17 +95,11 @@
           </dl>
         </div>
       </div>
-      <div class="otros">
+      <div id="oth" class="otros">
         <h3>Otros</h3>
         <ul>
           <li>HTML y CSS básico <i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i></li>
           <li>Guitarra <i class="fas fa-guitar"></i></li>
-        </ul>
-      </div>
-      <div class="otros">
-        <h3>Contacto</h3>
-        <ul>
-          <li><a href="https://www.linkedin.com/in/oscar-l%C3%B3pez-a6353a194/" target="_blank">Linkedin</a><i class="fab fa-linkedin"></i></li>
         </ul>
       </div>
     </section>
