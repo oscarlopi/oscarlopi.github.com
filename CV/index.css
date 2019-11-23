@@ -3,24 +3,74 @@ body {
   margin:0;
   background-color: #F2F2F2;
   color: #3B568C;
-  padding-top: 80px;
 }
+/* BARRA DE NAVEGACIÓN*/
 header{
   text-align: left;
-  padding: 1em;
+  padding-bottom: 5em;
   width: 100%;
-  position: fixed;
-  top:0;
-  left:0;
+  height: auto;
   display: flex;
-  background-color: #F2F2F2;
   box-shadow: 0px 0px 5px gray;
+}
+nav{
+  background-color: #F2F2F2;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+nav ul{
+  margin-right: 4.5em;
 }
 a{
   color: #3B568C;
   text-decoration: none;
+<<<<<<< HEAD
+=======
 }
-
+.logo-space{
+  float: left;
+  padding: 1em;
+}
+.p{
+  width: 50vw;
+  font-weight: 400;
+  font-size: 1.5em;
+}
+h1:hover{
+  filter: opacity(.8);
+}
+.nav-bar{
+  float: right;
+  vertical-align: middle;
+  display: flex;
+}
+.nav-bar li{
+  margin: 1.5em;
+  font-weight: 200;
+  font-size: 1em;
+  display: inline;
+  vertical-align: middle;
+}
+.nav-bar li:hover{
+  filter: opacity(.5);
+}
+.icon-nav{
+  /*height: auto;*/
+  width: 20%;
+  cursor: pointer;
+  font-size: 2em;
+  display: block;
+  padding: 1em 0em;
+  float: right;
+  /*display: flex;
+  align-items: center;*/
+}
+h2{
+  font-weight: 200;
+  text-align: center;
+>>>>>>> prueba
+}
 h3{
   font-size: 36px;
   font-weight: 1000;
@@ -28,7 +78,7 @@ h3{
 }
 i{
   display: inline-block;
-  margin-left: 15px;
+  margin-left: 15.5px;
   color: #0D0D0D;
 }
 dt{
@@ -51,29 +101,11 @@ ul{
   margin-top: 12px;
   padding: 0;
 }
-li{
-  margin-top: 1vh;
-  margin-right: 2.5vw;
-  display: inline-block;
-  font-weight: 400;
-  font-size: 1em;
-}
-.main-nav{
-  display: inline-block;
-  float: right;
-  margin-right: 5vw
-}
-.p{
-  display: inline-block;
-  width: 50vw;
-  margin-left: 5vw;
-  font-weight: 400;
-  font-size: 1.5em;
-}
 .content{
-  background-image: url("fondo1.jpg");
+  position: relative;
+  background: url("fondo1.jpg") 0/ cover fixed;
   margin: auto;
-  padding-top: 10vh;
+  padding-top: 21vh;
   width: 100%;
   height: 80%;
   display: flex;
@@ -84,7 +116,7 @@ li{
   width: 100%;
 }*/
 .foto{
-  display: inline-block;
+  display: block;
   vertical-align: bottom;
 }
 .yo{
@@ -96,6 +128,8 @@ li{
 #info-name{
   font-size: 1.7em;
   margin:0;
+  font-weight: 200;
+  margin-bottom: 5px;
 }
 .intro-text{
   max-width: 100%;
@@ -135,6 +169,25 @@ li{
 .contact-icon a{
   min-width: 50px;
 }
+#section2{
+  background-color: #D5D8DD;
+}
+.description{
+  max-width: 100%;
+  width: 100%;
+  text-align: center;
+  padding-top: 5vh;
+}
+.text-desc{
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 6vh;
+  font-size: 1em;
+}
 .bold{
   font-weight: 700;
 }
@@ -142,27 +195,73 @@ li{
   font-weight: 500;
   font-size: 25px;
 }
-.experiencia, .cursos, .otros{
-  width: 900px;
+.head{
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 0px 3px gray;
+  width: 100%
+}
+.head-2{
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #F2F2F2;
+  width: 100%;
+  background-color: #42628C;
+  color: #F2F2F2;
+}
+.experiencia, .educa .cursos, .otros{
+  width: 100%;
   margin-right: auto;
   margin-left: auto;
 }
-.education{
-  width: 600px;
-  margin-right: auto;
-  margin-left: auto;
-  display: inline-block;
-  vertical-align: top;
+.body{
+  display: flex;
+  align-items: center;
 }
-.edu{
-  width: 900px;
-  margin-left: auto;
-  margin-right: auto;
-}
-}
-.up{
-  display: inline-block;
+.text{
+  width: 50%;
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 1em;
+  margin-top: 0;
   vertical-align: middle;
+}
+.job-desc{
+  width: 50%;
+  margin: 1em;
+  margin-top: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  vertical-align: middle;
+}
+.skill{
+  background-color: #42628C;
+  color: #F2F2F2;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.s-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.s-list li{
+  border: 1px solid white;
+  max-width: 100%;
+  width: 20em;
+  list-style: none;
+  padding: 1.7em;
+  text-align: center;
+  margin: 4.5em;
+  margin-bottom: .5em;
+  margin-top: 1em;
 }
 .expro{
   display: inline-block;
@@ -171,4 +270,43 @@ li{
 }
 #uplogo{
   margin-left: 30px;
+}
+/* NOTE: MEDIAS QUERIES */
+
+@media screen and (max-width: 568px) {
+  .nav-bar{
+    display: none
+  }
+  .logo-space{
+    width: 80%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  .p{
+    width: 80%;
+    margin-right: 0;
+    padding: .5em;
+  }
+}
+@media screen and (min-width: 569px) and (max-width: 812px) {
+  .nav-bar{
+    display: none
+  }
+  .logo-space{
+    width: 80%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  .p{
+    width: 80%;
+    margin-right: 0;
+    padding: .5em;
+  }
+}
+@media screen and (min-width: 813px){
+  .icon-nav{
+    display: none
+  }
 }
