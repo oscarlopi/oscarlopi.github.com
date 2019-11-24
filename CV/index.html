@@ -2,6 +2,7 @@
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
     <meta name="description" content="Estudiante de Contaduría, entusiasta de la tecnología
     con experiencia en contabilidad financiera, manejo de Excel y de SAP">
     <title>Oscar López</title>
@@ -13,18 +14,22 @@
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,400,700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <h1 class="p">Oscar López Martínez</h1>
-      <div class="main-nav">
-        <nav>
-          <ul>
-            <li><a href="#exp">Experience</a></li>
-            <li><a href="#ed">Education</a></li>
-            <li><a href="#cour">Courses</a></li>
-            <li><a href="#oth">Other</a></li>
-          </ul>
-        </nav>
-      </div>
+    <header id="main-header">
+      <nav>
+        <div class="logo-space">
+          <h1 class="p"><a href="./index.html">Oscar López Martínez</a></h1>
+        </div>
+        <div class="icon-nav">
+          <i class="fas fa-bars"></i>
+          <i class="fas fa-times" style="display:none"></i>
+        </div>
+        <ul class="nav-bar">
+          <li><a href="#exp">Experience</a></li>
+          <li><a href="#ed">Education</a></li>
+          <li><a href="#cour">Skils</a></li>
+          <li><a href="#oth">Hobbies</a></li>
+        </ul>
+      </nav>
     </header>
     <div class="intro">
       <div class="row center-xs bottom-xs">
@@ -38,7 +43,7 @@
                 <div class="flex-text">
                   <dl class="intro-info">
                     <dt id="info-name">Oscar López</dt>
-                    <dd>ACCOUNTANT & DEVELOPER</dd>
+                    <dd style="font-weight: 700">ACCOUNTANT & DEVELOPER</dd>
                     <dt>Email:</dt>
                     <dd>oscar_loma95@hotmail.com</dd>
                     <dt>Location:</dt>
@@ -53,55 +58,108 @@
         </div>
       </div>
     </div>
-    <div class="contact-box animated fadeInDown">
-      <div class="contact-icon">
-        <a target="_blank" href="https://www.linkedin.com/in/oscar-l%C3%B3pez-a6353a194/"><i class="fab fa-linkedin-in"></i></a>
-        <a target="_blank" href="mailto:oscar_loma95@hotmail.com"><i class="fas fa-paper-plane"></i></a>
-        <a target="_blank" href="https://www.instagram.com/oscar.lopi/"><i class="fab fa-instagram"></i></a>
-      </div>
-    </div>
-    <section>
-      <div id="exp" class="experiencia">
-        <div class="text">
-          <h3>Experiencia Profesional</h3>
-          <dl>
-            <dt>Finance Analyst</dt>
-            <dd class="expro">2019 - VOOM VFI MÉXICO</dd><img src="voom.png" width="75" id="uplogo" class="expro">
-            <dt>Legal Entity Control Intern</dt>
-            <dd class="expro">2017 - 2019 JP MORGAN</dd><img src="jpmorgan.png" width="75" id="uplogo" class="expro">
-          </dl>
+    <section id="section2">
+      <div class="contact-box animated fadeInDown">
+        <div class="contact-icon">
+          <a target="_blank" href="https://www.linkedin.com/in/oscar-l%C3%B3pez-a6353a194/"><i class="fab fa-linkedin-in"></i></a>
+          <a target="_blank" href="mailto:oscar_loma95@hotmail.com"><i class="fas fa-paper-plane"></i></a>
+          <a target="_blank" href="https://www.instagram.com/oscar.lopi/"><i class="fab fa-instagram"></i></a>
         </div>
       </div>
-      <div id="ed" class="edu">
-        <div class="education">
-          <div class="text">
-            <h3>Educación</h3></i>
+      <div class="description">
+        <h2>Hello! I'm Oscar</h2>
+        <div class="text-desc">
+          <p>Accounting student, music lover and a technology enthusiast with experience in financial accounting.
+          <br> High sense of responsibilty in my activities while working under pressure, very analytic, attentive to detail and a team worker.
+          <br> Experience in SAP and NetSuite, advance level user in Microsoft Excel with basic knowledge in HTML5, CSS3 and JavaScript. </p>
+        </div>
+      </div>
+      </section>
+    <section>
+      <div id="exp" class="experiencia">
+        <div class="head">
+          <h3>Experience</h3>
+        </div>
+        <div class="body">
+          <div class="text animated fadeInLeft">
             <dl>
-              <dt>Licenciatura en Contaduría</dt>
-              <dd class="up">2015 - 2019. Universidad Panamericana</dd><img src="up.png" width="75" id="uplogo" class="up">
+              <dt>2019</dt>
+              <dd class="expro">Analyst</dd>
+              <dt>2017 - 2019</dt>
+              <dd class="expro">Intern</dd>
+            </dl>
+          </div>
+          <div class="job-desc animated fadeInRight">
+            <dl>
+              <dt>VOOM VFI MÉXICO</dt>
+              <dd>In this job I am in charge of the accounts payable and receivable control and reconciling.
+              Helped with NetSuite implementation in accounting with PO's.
+              Support on the elaboration of weekly metrics to be reviewed by the leadership team.</dd>
+              <dt>JP MORGAN MÉXICO</dt>
+              <dd>In this job I was in charge of reconciling the accounting with transactional operations.
+              Also I helped on elaborating financial statements and other local regulatory reports.
+              We increase our team productivity by 50% by migrating some manual processes to our hub in Mumbai.</dd>
             </dl>
           </div>
         </div>
-
+      </div>
+      <div id="ed" class="education">
+        <div class="head">
+          <h3>Education</h3></i>
+        </div>
+        <div class="body">
+          <div class="text animated fadeInLeft">
+            <dl>
+              <dt>2015 - 2019</dt>
+              <dd>Bachelor's degree</dd>
+            </dl>
+          </div>
+          <div class="ed-desc animated fadeInRight">
+            <dl>
+              <dt>UNIVERSIDAD Panamericana</dt>
+              <dd>Accounting and Finance</dd>
+            </dl>
+          </div>
+        </div>
       </div>
       <div id="cour" class="cursos">
-        <div class="text">
-          <h3>Cursos</h3>
-          <dl>
-            <dt>Curso básico de programación en JavaScript <i class="fab fa-js-square"></i></dt>
-            <dd>2019 - Platzi</dd>
-            <dt>Curso básico de programación en Python <i class="fab fa-python"></i></dt>
-            <dd>2019 - CodigoFacilito</dd>
-          </dl>
+        <div class="head-2">
+          <h3>Skills</h3>
+        </div>
+        <div class="body">
+          <div class="skill">
+            <ul class="s-list">
+              <li>Microsoft Excel</li>
+              <li>Microsoft Word</li>
+              <li>Microsoft Power Point</li>
+              <li>HTML 5</li>
+              <li>CSS 3</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
         </div>
       </div>
       <div id="oth" class="otros">
-        <h3>Otros</h3>
-        <ul>
-          <li>HTML y CSS básico <i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i></li>
-          <li>Guitarra <i class="fas fa-guitar"></i></li>
-        </ul>
+        <div class="head">
+          <h3>Hobbies</h3>
+        </div>
+        <dl class="hobbies">
+          <div class="hob">
+            <dt>Guitarra</dt>
+            <dd>Disfruto de tocar la guitarra en mis tiempos libres</dd>
+          </div>
+          <div class="hob">
+            <dt>Desarrollo Web y programación</dt>
+            <dd>Aprendí a diversos lenguajes para desarrollar páginas web y programar</dd>
+          </div>
+          <div class="hob">
+            <dt>Tenis</dt>
+            <dd>Aunque llevo tiempo sin jugar, este deporte siempre ha sido mi preferido para practicar</dd>
+          </div>
+        </dl>
       </div>
     </section>
+    <script src="jquery.js" charset="utf-8"></script>
+    <script src="index.js" charset="utf-8"></script>
   </body>
 </html>
