@@ -1,53 +1,50 @@
-body {
+/* NOTE: COLORES
+#013E6E - AZUL FUERTE
+#2894A4 - SEGUNDO AZUL
+#9EC4BD - VERDE AQUA
+#E5E1EE - GIRS
+#E4EDE3 - VERDE CLARO
+#55B6C5 - TERCER AZUL
+#668488 - AZUL CON GRIS Y VERDE
+ */
+
+body{
   font-family: 'Work Sans', sans-serif;
   margin:0;
-  background-color: #F2F2F2;
-  color: #3B568C;
+  background-color: #FFFFFF;
+  color: #003C6B;
+  font-weight: 200;
 }
-<<<<<<< HEAD
 /* /* NOTE:BARRA DE NAVEGACIÓN  */
 header{
   text-align: left;
-=======
-/* BARRA DE NAVEGACIÓN*/
-header{
   text-align: left;
   padding-bottom: 5em;
->>>>>>> b13fc99d2b5e09f5631c27123e112784aa79db69
   width: 100%;
   height: auto;
   display: flex;
-  box-shadow: 0px 0px 5px gray;
 }
 nav{
-  background-color: #F2F2F2;
-<<<<<<< HEAD
+  background-color: #FFFFFF;
   position: fixed;
-=======
-  position: absolute;
->>>>>>> b13fc99d2b5e09f5631c27123e112784aa79db69
   z-index: 1;
   width: 100%;
+  box-shadow: 0px 0px 5px gray;
 }
 nav ul{
   margin-right: 4.5em;
 }
 a{
-  color: #3B568C;
+  color: #003C6B;
   text-decoration: none;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> b13fc99d2b5e09f5631c27123e112784aa79db69
 }
 .logo-space{
   float: left;
-  padding: 1em;
+  padding-left: 1em;
 }
 .p{
   width: 50vw;
-  font-weight: 400;
+  font-weight: 200;
   font-size: 1.5em;
 }
 h1:hover{
@@ -59,7 +56,7 @@ h1:hover{
   display: flex;
 }
 .nav-bar li{
-  margin: 1.5em;
+  margin: 1em;
   font-weight: 200;
   font-size: 1em;
   display: inline;
@@ -68,13 +65,10 @@ h1:hover{
 .nav-bar li:hover{
   filter: opacity(.5);
 }
-<<<<<<< HEAD
 .show{
   display: block;
   float: none;
 }
-=======
->>>>>>> b13fc99d2b5e09f5631c27123e112784aa79db69
 .icon-nav{
   /*height: auto;*/
   width: 20%;
@@ -87,16 +81,12 @@ h1:hover{
   align-items: center;*/
 }
 h2{
-  font-weight: 200;
+  font-weight: 400;
   text-align: center;
-<<<<<<< HEAD
-=======
->>>>>>> prueba
->>>>>>> b13fc99d2b5e09f5631c27123e112784aa79db69
 }
 h3{
-  font-size: 36px;
-  font-weight: 1000;
+  font-size: 1.3em;
+  font-weight: 400;
   display: inline-block;
 }
 i{
@@ -106,6 +96,7 @@ i{
 }
 dt{
   font-size: 17px;
+  font-weight: 400;
   text-transform: uppercase;
   margin-bottom: 12px;
   margin-top: 3vh;
@@ -124,11 +115,9 @@ ul{
   margin-top: 12px;
   padding: 0;
 }
-<<<<<<< HEAD
 
-/* NOTE: PRIMER BLOQUE */
-=======
->>>>>>> b13fc99d2b5e09f5631c27123e112784aa79db69
+/* NOTE: FOTO E INFO */
+
 .content{
   position: relative;
   background: url("fondo1.jpg") 0/ cover fixed;
@@ -139,10 +128,7 @@ ul{
   display: flex;
   justify-content: center;
 }
-/*.content{
-  margin: auto;
-  width: 100%;
-}*/
+
 .foto{
   display: block;
   vertical-align: bottom;
@@ -165,7 +151,7 @@ ul{
   width: 400px;
   vertical-align: bottom;
   display: inline-block;
-  background-color: #F2F2F2;
+  background-color: #F1F1F1;
 }
 .flex-text{
   height: 400px;
@@ -182,7 +168,7 @@ ul{
   margin: auto;
   width: 800px;
   height: 50px;
-  background-color: #42628C;
+  background-color: #003C6B;
   display: flex;
   justify-content: space-around;
 }
@@ -198,7 +184,7 @@ ul{
   min-width: 50px;
 }
 #section2{
-  background-color: #D5D8DD;
+  background-color: #F1F1F1F1;
 }
 .description{
   max-width: 100%;
@@ -210,7 +196,7 @@ ul{
   max-width: 100%;
   height: auto;
   margin: auto;
-  width: 40vw;
+  width: 50vw;
   display: flex;
   justify-content: center;
   padding-bottom: 6vh;
@@ -223,17 +209,16 @@ ul{
   font-weight: 500;
   font-size: 25px;
 }
+
+/* NOTE: EXPERIENCIA EDU Y DEMÀS */
 .head{
   max-width: 100%;
   margin: auto;
   display: flex;
   justify-content: center;
   box-shadow: 0px 0px 3px gray;
-<<<<<<< HEAD
   width: 100%;
-=======
-  width: 100%
->>>>>>> b13fc99d2b5e09f5631c27123e112784aa79db69
+  padding: .5em
 }
 .head-2{
   max-width: 100%;
@@ -242,58 +227,69 @@ ul{
   justify-content: center;
   border: 1px solid #F2F2F2;
   width: 100%;
-  background-color: #42628C;
+  background-color: #013E6E;
   color: #F2F2F2;
-<<<<<<< HEAD
+  padding: .5em;
 }
 .experiencia, .educa .cursos, .otros{
   width: 100%;
   margin-right: auto;
   margin-left: auto;
 }
-.body{
-  display: flex;
-  align-items: center;
+.division{
+  width: .2em;
+  max-width: 10%;
+  height: 13em;
+  background-color: #F2F2F2F2;
+  margin: 1em 1em;
 }
-.text{
-  width: 50%;
-  display:flex;
-  justify-content: flex-end;
-  align-items: center;
-  margin: 1em;
-  margin-top: 0;
-=======
-}
-.experiencia, .educa .cursos, .otros{
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
+.division-ed{
+  width: .2em;
+  max-width: 10%;
+  height: 5em;
+  background-color: #F2F2F2F2;
+  margin: 2em 1em;
 }
 .body{
   display: flex;
+  flex-direction: column;
   align-items: center;
+  height: auto;
 }
 .text{
-  width: 50%;
-  display:flex;
-  justify-content: flex-end;
-  align-items: center;
+  width: 65%;
+  height: auto;
   margin: 1em;
   margin-top: 0;
-  vertical-align: middle;
+}
+.work{
+  display: flex;
+}
+.year{
+  width: 50%;
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.name{
+  width: 50%;
+  margin:1em;;
+}
+dd{
+  margin: 0;
 }
 .job-desc{
-  width: 50%;
+  width: 65%;
   margin: 1em;
   margin-top: 0;
   display: flex;
   justify-content: flex-start;
   align-items: center;
->>>>>>> b13fc99d2b5e09f5631c27123e112784aa79db69
   vertical-align: middle;
 }
 .skill{
-  background-color: #42628C;
+  background: url("fondo2.jpg") 0/ cover fixed;
   color: #F2F2F2;
   width: 100%;
   display: flex;
@@ -305,7 +301,8 @@ ul{
   justify-content: center;
 }
 .s-list li{
-  border: 1px solid white;
+  background-color: #013E6E;
+  border: 1px solid #013E6E;
   max-width: 100%;
   width: 20em;
   list-style: none;
@@ -314,21 +311,13 @@ ul{
   margin: 4.5em;
   margin-bottom: .5em;
   margin-top: 1em;
+  box-shadow: 0 0 1px #F2F2F2;
 }
 .expro{
   display: inline-block;
   vertical-align: middle;
   margin-left: 40px
 }
-.job-desc{
-  width: 50%;
-  margin: 1em;
-  margin-top: 0;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  vertical-align: middle;
-}
 .skill{
   background-color: #42628C;
   color: #F2F2F2;
@@ -336,75 +325,48 @@ ul{
   display: flex;
   justify-content: center;
 }
-.s-list{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.s-list li{
-  border: 1px solid white;
-  max-width: 100%;
-  width: 20em;
-  list-style: none;
-  padding: 1.7em;
-  text-align: center;
-  margin: 4.5em;
-  margin-bottom: .5em;
-  margin-top: 1em;
-}
+
 .hobbies{
   display: flex;
   justify-content: center;
 }
 .hob{
   max-width: 33%;
-
+  text-align: left;
+  margin: 1em;
 }
-
+.hob dd{
+  padding: 1em;
+  margin: 1em;
+  margin-top: 0;
+}
+.hob dt{
+  margin-bottom: 0;
+  margin-left: 1.5em;
+}
+/* NOTE: CAJA DE CONTACTO E-MAIL */
 
 
 /* NOTE: MEDIAS QUERIES */
 
-@media screen and (max-width: 568px) {
-  .nav-bar{
-    display: none
-  }
-  .logo-space{
-    width: 80%;
-    padding: 0;
-    display: flex;
-    align-items: center;
-  }
-  .p{
-    width: 80%;
-    margin-right: 0;
-    padding: .5em;
-  }
-}
-@media screen and (min-width: 569px) and (max-width: 812px) {
-  .nav-bar{
-    display: none
-  }
-  .logo-space{
-    width: 80%;
-    padding: 0;
-    display: flex;
-    align-items: center;
-  }
-  .p{
-    width: 80%;
-    margin-right: 0;
-    padding: .5em;
-  }
-}
-@media screen and (min-width: 813px){
-  .icon-nav{
-    display: none
-  }
-}
-/* NOTE: MEDIAS QUERIES */
+@media screen and (max-width: 320px) {
 
-@media screen and (max-width: 568px) {
+  .nav-bar{
+    display: none;
+  }
+  .logo-space{
+    width: 80%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  .p{
+    width: 80%;
+    margin-right: 0;
+    padding: .5em;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 414px) {
   .nav-bar{
     display: none
   }
@@ -419,24 +381,48 @@ ul{
     margin-right: 0;
     padding: .5em;
   }
-}
-@media screen and (min-width: 569px) and (max-width: 812px) {
-  .nav-bar{
-    display: none
-  }
-  .logo-space{
-    width: 80%;
-    padding: 0;
-    display: flex;
+  .content{
+    flex-direction: column;
     align-items: center;
   }
-  .p{
+  .foto{
     width: 80%;
-    margin-right: 0;
-    padding: .5em;
+    margin:0;
+  }
+  .intro-text, .contact-box, .text-desc, .text, .job-desc, .hob{
+    width: 80%;
+  }
+  .division,.division-ed{
+    display: none;
+  }
+  .work{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .year{
+    align-items: flex-start;
+    margin-bottom: 0;
+  }
+  .expro{
+    margin: 0;
+  }
+  .name{
+    margin-top: 0;
+    width: 95%;
+  }
+  .s-list li{
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .hobbies{
+    flex-direction: column;
+  }
+  .hob{
+    max-width: none;
+    margin: 0 1em;
   }
 }
-@media screen and (min-width: 813px){
+@media screen and (min-width: 415px){
   .icon-nav{
     display: none
   }
