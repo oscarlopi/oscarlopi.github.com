@@ -365,6 +365,46 @@ dd{
     margin-right: 0;
     padding: .5em;
   }
+  .content{
+    flex-direction: column;
+    align-items: center;
+  }
+  .foto{
+    width: 80%;
+    margin:0;
+  }
+  .intro-text, .contact-box, .text-desc, .text, .job-desc, .hob{
+    width: 80%;
+  }
+  .division,.division-ed{
+    display: none;
+  }
+  .work{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .year{
+    align-items: flex-start;
+    margin-bottom: 0;
+  }
+  .expro{
+    margin: 0;
+  }
+  .name{
+    margin-top: 0;
+    width: 95%;
+  }
+  .s-list li{
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .hobbies{
+    flex-direction: column;
+  }
+  .hob{
+    max-width: none;
+    margin: 0 1em;
+  }
 }
 @media screen and (min-width: 321px) and (max-width: 414px) {
   .nav-bar{
