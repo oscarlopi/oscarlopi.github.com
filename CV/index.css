@@ -196,7 +196,7 @@ ul{
   max-width: 100%;
   height: auto;
   margin: auto;
-  width: 50vw;
+  width: 45vw;
   display: flex;
   justify-content: center;
   padding-bottom: 6vh;
@@ -395,8 +395,9 @@ dd{
     width: 95%;
   }
   .s-list li{
-    padding-left: 1em;
-    padding-right: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 80%;
   }
   .hobbies{
     flex-direction: column;
@@ -451,8 +452,9 @@ dd{
     width: 95%;
   }
   .s-list li{
-    padding-left: 1em;
-    padding-right: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 80%;
   }
   .hobbies{
     flex-direction: column;
